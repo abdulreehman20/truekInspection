@@ -36,13 +36,14 @@ export const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-5 px-4">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold">
-          <Image
+          {/* <Image
             src={"/logo/our-logo.PNG"}
             alt="Logo"
             width={180}
             height={180}
             className="object-contain"
-          />
+          /> */}
+          TrueK Inspection
         </Link>
 
         {/* Desktop Navbar */}
