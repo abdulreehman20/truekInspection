@@ -1,8 +1,13 @@
 import { FooterSection } from "@/components/footer";
-import { HeroSection } from "@/components/hero-section";
 import { Navbar } from "@/components/navbar";
 import Link from "next/link";
 import React from "react";
+
+export const metadata = {
+  title: "Refund Policy | TrueK Inspection",
+  description:
+    "TrueK Inspection refund policy. We offer a 14-day refund window on all purchases.",
+};
 
 export default function RefundPolicy() {
   return (
@@ -13,70 +18,68 @@ export default function RefundPolicy() {
         {/* Header Section */}
         <div className="bg-gradient-to-r from-custom_red to-red-600 rounded-lg p-16 mb-8">
           <h1 className="text-4xl font-medium text-white text-center">
-            Non Refund Policy
+            Refund Policy
           </h1>
         </div>
 
         {/* Content Section */}
         <div className="space-y-8">
           <p className="text-gray-600">
-            Thank you for choosing Autos Checkup. Please read this policy
-            carefully. This is the Non-Refund Policy of AUTOS CHECKS.
+            Thank you for choosing TrueK Inspection. Please read this Refund
+            Policy carefully before making a purchase.
           </p>
 
           <div className="space-y-6">
             <section>
               <h2 className="text-2xl font-medium text-gray-800 mb-2">
-                1. All Sales Are Final
+                1. 14-Day Refund Window
               </h2>
               <p className="text-gray-600">
-                All purchases of digital products, including car inspection
-                history reports, are final. Once the purchase is completed, no
-                refunds will be issued.
+                You may request a full refund within <strong>14 days</strong>{" "}
+                of the date of your purchase. To request a refund, contact us
+                at{" "}
+                <Link
+                  href="/#contact"
+                  className="text-blue-600 hover:text-blue-700 underline"
+                >
+                  our contact page
+                </Link>{" "}
+                within that 14-day period with your order details.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-medium text-gray-800 mb-2">
-                2. No Returns or Exchanges
+                2. How to Request a Refund
               </h2>
               <p className="text-gray-600">
-                We do not accept returns or exchanges for any digital products.
-                Please review your order carefully before making a purchase.
+                To initiate a refund, please contact TrueK Inspection within
+                14 days of your purchase date. Include your order number and
+                the email address used at checkout. We will process your refund
+                request promptly.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-medium text-gray-800 mb-2">
-                3. Defective Products
+                3. Refund Processing
               </h2>
               <p className="text-gray-600">
-                If you experience issues with accessing or downloading the
-                digital product, please contact us. We will assist you in
-                resolving any technical issues.
+                Once your refund request is received and approved, the refund
+                will be issued to your original payment method. Please allow a
+                few business days for the refund to appear in your account,
+                depending on your payment provider.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-medium text-gray-800 mb-2">
-                4. Exceptions
-              </h2>
-              <p className="text-gray-600">
-                In exceptional circumstances, if a product is found to be
-                defective or not as described, please contact us within 2 days
-                of purchase. We will review your case and determine if a refund
-                or replacement is warranted.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-medium text-gray-800 mb-2">
-                5. Contact Us
+                4. Contact Us
               </h2>
               <p className="text-gray-600">
                 For any questions or concerns regarding this policy, please{" "}
-                <Link   
-                  href="/#contact" 
+                <Link
+                  href="/#contact"
                   className="text-blue-600 hover:text-blue-700 underline"
                 >
                   contact us
