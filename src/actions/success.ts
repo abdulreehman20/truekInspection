@@ -16,7 +16,7 @@ export async function sendPaymentSuccessEmails(data: {
     // 📧 EMAIL 3: To Admin
     await resend.emails.send({
       from: process.env.RESEND_EMAIL || "TrueK System <noreply@truekinspection.com>",
-      to: process.env.OWNER_EMAIL || "contact@truekinspection.com",
+      to: process.env.OWNER_EMAIL || "Truekinspection@gmail.com",
       subject: `💰 New Order: ${data.vin}`,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
