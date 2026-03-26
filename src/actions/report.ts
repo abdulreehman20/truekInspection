@@ -38,7 +38,7 @@ export async function handleReportRequest(data: ReportRequest) {
       subject: `Your Car Inspection Request - TrueK`,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; background-color: #f8f9fa;">
-          <h2 style="background-color: #d32f2f; color: #fff; padding: 15px; text-align: center; margin: 0; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+          <h2 style="background-color: #00ccff; color: #fff; padding: 15px; text-align: center; margin: 0; border-top-left-radius: 8px; border-top-right-radius: 8px;">
             📄 TrueK Car Inspection Report Request
           </h2>
           <div style="padding: 20px; background-color: #ffffff;">
@@ -63,7 +63,7 @@ await resend.emails.send({
   subject: `🚗 New Order Request: ${vnNumber}`,
   html: `
     <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: #f8f9fa;">
-      <h2 style="background-color: #d32f2f; color: #fff; padding: 15px; text-align: center; margin: 0; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+      <h2 style="background-color: #00ccff; color: #fff; padding: 15px; text-align: center; margin: 0; border-top-left-radius: 8px; border-top-right-radius: 8px;">
         📄 New Inspection Request
       </h2>
       <div style="padding: 20px; background-color: #ffffff;">
@@ -73,15 +73,15 @@ await resend.emails.send({
         </p>
         <table style="width: 100%; border-collapse: collapse; background-color: #f8f9fa; color: #333;">
           <tr>
-            <td style="padding: 10px; background-color: #d32f2f; font-weight: bold; color: #fff; width: 30%;">Name:</td>
+            <td style="padding: 10px; background-color: #00ccff; font-weight: bold; color: #fff; width: 30%;">Name:</td>
             <td style="padding: 10px;">${fullName}</td>
           </tr>
           <tr>
-            <td style="padding: 10px; background-color: #d32f2f; font-weight: bold; color: #fff;">Email:</td>
+            <td style="padding: 10px; background-color: #00ccff;font-weight: bold; color: #fff;">Email:</td>
             <td style="padding: 10px;">${email}</td>
           </tr>
           <tr>
-            <td style="padding: 10px; background-color: #d32f2f; font-weight: bold; color: #fff;">VIN Number:</td>
+            <td style="padding: 10px; background-color: #00ccff; font-weight: bold; color: #fff;">VIN Number:</td>
             <td style="padding: 10px;">${vnNumber}</td>
           </tr>
         </table>
