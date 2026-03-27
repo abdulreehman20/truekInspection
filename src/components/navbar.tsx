@@ -43,7 +43,7 @@ export const Navbar = () => {
     height={100} // Adjust size as needed
     className="object-contain"
   />
-  <span>TrueK Inspection</span>
+  {/* <span>TrueK Inspection</span> */}
 </Link>
 
         {/* Desktop Navbar */}

@@ -34,7 +34,7 @@ export default function PaymentSuccessPage() {
               <p className="text-gray-700 text-base mb-6">
                 If you don’t receive the email, please
                 <a
-                  href="mailto:contact@TrueKinspection.com"
+                  href="mailto:truekinspection@gmail.com"
                   className="text-custom_red"
                 >
                   {" "}
@@ -45,18 +45,18 @@ export default function PaymentSuccessPage() {
               <p className="text-gray-600 text-sm italic mb-6">
                 If you notice any errors or have questions, email us at{" "}
                 <a
-                  href="mailto:contact@TrueKinspection.com"
+                  href="mailto:truekinspection@gmail.com"
                   className="text-custom_red underline"
                 >
-                  contact@TrueKinspection.com
+                  truekinspection@gmail.com
                 </a>{" "}
                 and we’ll resolve them promptly. If we're unable to help and you
                 want a refund then just contact us on{" "}
                 <a
-                  href="mailto:contact@TrueKinspection.com"
+                  href="mailto:truekinspection@gmail.com"
                   className="text-custom_red underline"
                 >
-                  contact@TrueKinspection.com
+                  truekinspection@gmail.com
                 </a>{" "}
                 and we can issue you a refund in that case. Please avoid raising
                 disputes directly
